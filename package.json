@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "serve": "ng serve --host 0.0.0.0 --disable-host-check --port 8080 --configuration production",
+    "serve": "ng serve --host 127.0.0.1 --disable-host-check --port 8080 --configuration production",
     "start:dev": "nodemon ngserve",
     "start": "ng serve",
     "build": "ng build",
