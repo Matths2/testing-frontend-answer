@@ -9,7 +9,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint",
+    "lint": "ng lint --fix",
     "generate:api": "openapi-generator-cli generate -i ./openapi.yaml -p removeOperationIdPrefix=true -g typescript-angular -o src/app/core/clientApi"
   },
   "private": true,
@@ -54,4 +54,3 @@
     "typescript": "~4.9.4"
   }
 }
-
